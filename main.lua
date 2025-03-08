@@ -46,7 +46,7 @@ local function getGitHubFiles()
     if success then
         return result
     else
-        notify("Fertinal Hub", "GitHub dosya listesi alınamadı: " .. tostring(result), 5)
+        notify("Fertinal Hub", "fail: ")
         return {}
     end
 end
