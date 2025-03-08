@@ -94,7 +94,7 @@ local function main()
             notify("Fertinal Hub", "Özel script aranıyor...", 3)
             
            
-            local capybaraUrl = "https://raw.githubusercontent.com/" .. githubUser .. "/" .. githubRepo .. "/" .. githubBranch .. "/capybaraevolution.lua"
+            local capybaraUrl = "https://raw.githubusercontent.com/fertinaldev/autoupdater/refs/heads/main/134257874794717_capybaraevolution.lua"
             loadScript(capybaraUrl)
         else
             notify("Fertinal Hub", "Bu oyun için uyumlu script bulunamadı!", 5)
